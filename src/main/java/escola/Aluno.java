@@ -7,7 +7,7 @@ public class Aluno {
 	// Celan Arquitecture = Camada de regra de negócio
 	// Classe que tenha um atributo que identifique unicamente o objeto.
 
-	private String cpf;
+	private Cpf cpf;
 	private String nome;
 	private Email email;
 
