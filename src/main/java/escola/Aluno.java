@@ -14,6 +14,12 @@ public class Aluno {
 	private String nome;
 	private Email email;
 
+	public Aluno(Cpf cpf, String nome, Email email) {
+		this.cpf = cpf;
+		this.nome = nome;
+		this.email = email;
+	}
+
 	private List<Telefone> telefones = new ArrayList<Telefone>();
 
 	public void adicionarNovoTelefone(String ddd, String numero) {
@@ -34,6 +40,12 @@ public class Aluno {
 
 	public List<Telefone> getTelefones() {
 		return telefones;
+	}
+
+	// So para teste este main
+	public static void main(String[] args) {
+		// A quantidade de parametros está grande tem que melhorar
+		Aluno aluno = new Aluno(new Cpf("13395154742"), "Josimar", new Email("josima@gmail.com"));
 	}
 
 }
