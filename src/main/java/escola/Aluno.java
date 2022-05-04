@@ -42,10 +42,10 @@ public class Aluno {
 		return telefones;
 	}
 
-	// So para teste este main
-	public static void main(String[] args) {
-		// A quantidade de parametros está grande tem que melhorar
-		Aluno aluno = new Aluno(new Cpf("13395154742"), "Josimar", new Email("josima@gmail.com"));
-	}
+//	// So para teste este main
+//	public static void main(String[] args) {
+//		// A quantidade de parametros está grande tem que melhorar
+//		Aluno aluno = new Aluno(new Cpf("13395154742"), "Josimar", new Email("josima@gmail.com"));
+//	}
 
 }
